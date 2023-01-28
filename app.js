@@ -27,7 +27,7 @@ sequelize.sync()
 
 console.log(process.env.PORT);
 
-app.listen(process.env.PORT , ()=>{
+app.listen( 3000||process.env.PORT , ()=>{
 
     console.log("Server Start");
 })
